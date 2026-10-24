@@ -1,0 +1,89 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: url(Imagen-formulario.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    max-width: 450px;
+}
+form{
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 100%
+}
+h2{
+    color: green;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subtitle{
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: green;
+    margin-bottom: 10px;
+    font-size: 700;
+    display: flex;
+    align-items: center;
+}
+label i{
+    width: 25px;
+}
+input, textarea{
+    padding: 12px 15px;
+    border-radius: 5px;
+    background-color: beige;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 2px solid green;
+}
+input:focus, textarea:focus{
+    border-color: green;
+    box-shadow: greenyellow;
+}
+input::placeholder, textarea::placeholder{
+    color: rgb(215, 108, 45);
+}
+.form-links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-links a{
+    color: gray;
+}
+.form-links a:hover{
+    color: green;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
